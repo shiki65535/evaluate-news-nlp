@@ -40,7 +40,7 @@ app.post("/post", async (req, res) => {
 });
 
 // port
-const port = 8081;
+const port = 8080;
 const server = app.listen(port, () => {
     console.log(`you are runining with ${port} port.`)
 });

@@ -8,7 +8,7 @@ function handleSubmit(event) {
     console.log("SENDING FORM");
 
     if(urlFormatCheck(userInput)){
-        fetch('http://localhost:8081/post', {
+        fetch('http://localhost:8080/post', {
             method: "POST",
             cache: "no-cache",
             credentials: "same-origin",
