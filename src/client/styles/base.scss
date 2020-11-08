@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to left,  #114357, #f29492 );
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 10px 40px;
+    border-color: white;
+    border-style: solid;
+}

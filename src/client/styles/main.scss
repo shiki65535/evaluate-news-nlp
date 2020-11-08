@@ -1,0 +1,23 @@
+main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    text-align: center;
+
+    form {
+            display: inline-block;
+            width: 75%;
+        }
+}
+
+form {
+    #url {
+            width: 100%;
+            font-size: large;
+    }
+
+    #submit {
+            margin-top: 15px;
+        }
+}
